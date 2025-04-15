@@ -258,16 +258,16 @@ class UnityManager(QWidget):
 class DesktopManager(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("🔥 Desktop Manager 🔥")
+        self.setWindowTitle("SehtajDesk Manager ")
         self.setGeometry(100, 100, 1000, 700)
 
         tabs = QTabWidget()
-        tabs.addTab(EbookManager(), "📚 Ebooks")
-        tabs.addTab(GameManager(), "🎮 Games")
-        tabs.addTab(ProgrammingManager(), "💻 Programming")
-        tabs.addTab(PCAssetManager(), "🧰 PC Assets")
-        tabs.addTab(PhotoManager(), "🖼️ Photos")
-        tabs.addTab(UnityManager(), "🧩 Unity Projects")
+        tabs.addTab(EbookManager(), " Ebooks")
+        tabs.addTab(GameManager(), " Games")
+        tabs.addTab(ProgrammingManager(), " Programming")
+        tabs.addTab(PCAssetManager(), " PC Assets")
+        tabs.addTab(PhotoManager(), " Photos")
+        tabs.addTab(UnityManager(), " Unity Projects")
         self.setCentralWidget(tabs)
 
 
