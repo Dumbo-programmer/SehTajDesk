@@ -23,14 +23,10 @@ SehTajDesk is a project designed to help me manage files on my pc. This README p
     ```bash
     cd SehTajDesk
     ```
-3. Install dependencies:
-    ```bash
-    [insert installation command, e.g., npm install]
-    ```
 
 ## Usage
 
-1. Start the application:
+1. Install dependencies:
     ```bash
         pip install -r requirements.txt
     ```
