@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Local app state/cache
+ebook_cache.json
+games.json
+unity_editor_path.txt
+
+# Editor/system
+.vscode/
+.DS_Store
+Thumbs.db
